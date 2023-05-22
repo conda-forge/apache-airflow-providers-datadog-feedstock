@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-datadog" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache-airflow-providers-datadog-{{ version }}.tar.gz
-  sha256: 359f61474af395efe60b0f5155617dd6d79922d6997278c5abdf45846bab73fc
+  sha256: 2f8b5018e40e81e1446999ac6913e9fd82f4f6666a204ca110fc064fa9254089
 
 build:
   noarch: python
