@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_datadog-{{ version }}.tar.gz
   sha256: 7a5e0ed67a218e9caeddfdc4adf704201c7df8c115f4d9d9c29d3a6bfeb3eb39
 
 build:
