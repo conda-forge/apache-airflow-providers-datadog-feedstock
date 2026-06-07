@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-datadog
-  version: "3.10.4"
+  version: "3.10.5"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apache_airflow_providers_datadog-${{ version }}.tar.gz
-  sha256: 9112942c99fa51898cab84d17b6f529f6814fb01ee4350ea5125327c0516b28d
+  sha256: 6e39ba61651f95602b49af6a3b2c1022cbc6f865bbdb4aa8e0a2ab899c36f1a1
 
 build:
   noarch: python
