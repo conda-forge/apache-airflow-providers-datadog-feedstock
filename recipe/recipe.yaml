@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-datadog
-  version: "3.11.0"
+  version: "3.11.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apache_airflow_providers_datadog-${{ version }}.tar.gz
-  sha256: 892c36c03b5791be738d369e755b9983917c113d8fe821460f12a66e02d0b660
+  sha256: fa9198e5f9128106c24efd70f6002044fa38ad2bf302714fe4f69530feaa5ec4
 
 build:
   noarch: python
@@ -19,7 +19,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - flit-core ==4.0.2
+    - flit-core ==4.1.0
   run:
     - python >=${{ python_min }}
     - apache-airflow >=2.11.0
